@@ -48,7 +48,11 @@ attributes, or other hacks like that.
 
 #### Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
 
-*Not answered yet*
+- A `cookie` is a very short piece of data that is stored in the user's browser and can be used for better experience.
+- `sessionStorage` is data that contains fragile information about an user session, e.g. login, shopping cart, game scores, or any data   the server should remember.
+- `localStorage` is a bigger version of `cookie`s, for the last are very limited sized, `localStorage` can be seen as a solution for       storing bigger data in the browser.
+
+So the first holds very short data, the third holds more, the second is the only one the server cares about.
 
 #### Describe the difference between `<script>`, `<script async>` and `<script defer>`.
 
